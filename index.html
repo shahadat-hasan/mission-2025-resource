@@ -2,65 +2,97 @@
 <html lang="en" data-theme="light">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mission 2025</title>
-    <!-- Daisy Ui + Tailwind Css  -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdn.tailwindcss.com"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mission 2025</title>
+  <!-- Daisy Ui + Tailwind Css  -->
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- googles font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap"
-        rel="stylesheet">   
-        <script>
-            tailwind.config = {
-              theme: {
-                extend: {
-                  fontFamily: {
-                    poppins: ["Poppins", "serif"],
-                    yeseva:["Yeseva One", "serif"]
-                  }
-                }
-              }
-            }
-          </script>
+  <!-- googles font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yeseva+One&display=swap"
+    rel="stylesheet">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            poppins: ["Poppins", "serif"],
+            yeseva: ["Yeseva One", "serif"]
+          }
+        }
+      }
+    }
+  </script>
 </head>
 
-<body>
-    <!-- header section start here  -->
-    <header class="max-w-[1152px] mx-auto mt-5">
-        <div class="lg:flex lg:p-0 p-5 items-center gap-10 ">
-            <div class="space-y-5">
-                <div class="border-l-[4px] border-[#FF5959] p-2">
-                    <h1 class="text-5xl font-yeseva">Stay Focused on <br>
-                        <span class="text-[#FFAD5A]">Mission 2022</span>
-                    </h1>
-                </div>
-                <p class="font-poppins text-[#3E3E3E]">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset. No duo populo animal noluisse, enim</p>
-                <button class="btn bg-[#FF5959] text-white  hover:bg-[red]">Explore Now</button>
-                <p class="text-[#3E3E3E]">Scroll down to explore more about us</p>
-            </div>
-            <div>
-                <img class="w-[1000px]"src="./images/person/person-1.png" alt="">
-            </div>
+<body class="font-poppins">
+  <!-- header section start here  -->
+  <header class="max-w-[1152px] mx-auto mt-10">
+    <div class="lg:flex lg:p-0 p-5 items-center gap-10 ">
+      <div class="space-y-5">
+        <div class="border-l-[4px] border-[#FF5959] p-2">
+          <h1 class="text-5xl font-yeseva">Stay Focused on <br>
+            <span class="text-[#FFAD5A]">Mission 2025</span>
+          </h1>
         </div>
-    </header>
-    <!-- header section end here  -->
+        <p class="text-[#3E3E3E]">Lorem ipsum dolor sit amet, usu cu esse possit referrentur, at eam falli deterruisset.
+          No duo populo animal noluisse, enim</p>
+        <button class="btn bg-[#FF5959] text-white  hover:bg-[red]">Explore Now</button>
+        <p class="text-[#3E3E3E]">Scroll down to explore more about us</p>
+      </div>
+      <div>
+        <img class="w-[1000px]" src="./images/person/person-1.png" alt="">
+      </div>
+    </div>
+  </header>
+  <!-- header section end here  -->
 
-    <!-- main section start here  -->
-    <main>
+  <!-- main section start here  -->
+  <main class="max-w-[1152px] mx-auto mt-32">
+    <!-- My Mission in 2025 -->
+    <section>
+      <!-- text content  -->
+      <div class="text-center">
+        <h1 class="text-5xl font-bold">My Mission in <span class="text-[#FFAD5A]">2025</span></h1>
+      </div>
+      <!-- card container  -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-5 mt-12 place-items-center">
+        <!-- card-1  -->
+        <div class="bg-[#4F9DA6] bg-opacity-20 w-[360px] h-[370px] space-y-5 py-5 px-8 rounded-3xl">
+          <img class="w-[141px]" src="./images/illustrators/illustrator-1.png" alt="">
+          <h2 class="text-3xl font-bold">Mission</h2>
+          <p class="text-[#424242]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+            velit mollit.</p>
+        </div>
+           <!-- card-2  -->
+           <div class="bg-[#FF5959] bg-opacity-20 w-[360px] h-[370px] space-y-5 py-5 px-8 rounded-3xl">
+            <img class="w-[141px]" src="./images/illustrators/illustrator-2.png" alt="">
+            <h2 class="text-3xl font-bold">Vission</h2>
+            <p class="text-[#424242]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+              velit mollit.</p>
+          </div>
+             <!-- card-1  -->
+        <div class="bg-[#4F9DA6] bg-opacity-20 w-[360px] h-[370px] space-y-5 py-5 px-8 rounded-3xl">
+          <img class="w-[141px]" src="./images/illustrators/illustrator-3.png" alt="">
+          <h2 class="text-3xl font-bold">Mission</h2>
+          <p class="text-[#424242]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim
+            velit mollit.</p>
+        </div>
+      </div>
+    </section>
+    
+  </main>
+  <!-- main section end here  -->
 
-    </main>
-    <!-- main section end here  -->
+  <!-- footer section start here  -->
+  <footer>
 
-    <!-- footer section start here  -->
-    <footer>
-
-    </footer>
-    <!-- footer section start here  -->
+  </footer>
+  <!-- footer section start here  -->
 </body>
 
 </html>
